@@ -10,7 +10,7 @@ import { PropertyService } from '../../services/property.service';
 })
 export class IndexComponent implements OnInit {
 
-  properties:Array<Property> = [];
+  properties: Array<Property> = [];
 
   constructor(
     private propertyService: PropertyService

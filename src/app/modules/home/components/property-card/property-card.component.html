@@ -1,1 +1,33 @@
-<p>property-card works!</p>
+<div class="card">
+    <img class="card-img-top" src="../../../../../assets/img/thumbnail.jfif">
+    <div class="card-body">
+        <h4 class="card-title">
+            <div class="p-1">
+                {{property.monthlyRent | currency}}
+            </div>
+            <div class="d-flex">
+                <div class="p-1">
+                    <span class="bed-icon"></span>
+                </div>
+                <div class="p-1">
+                    {{property.numberOfRooms}}
+                </div>
+                <div class="p-1">
+                    <span class="bath-icon"></span>
+                </div>
+                <div class="p-1">
+                    {{property.numberOfBaths}}
+                </div>
+                <div class="p-1">
+                    <span class="area-icon"></span>
+                </div>
+                <div class="p-1">
+                    {{property.surfaceInSquareMeters}}m<sup>2</sup>
+                </div>
+            </div>
+        </h4>
+        <p class="card-text">
+            {{property.description}}
+        </p>
+    </div>
+</div>
