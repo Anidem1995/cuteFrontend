@@ -1,0 +1,35 @@
+.bed-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    background-repeat: no-repeat !important;
+    background-image: url('../../../../../assets/img/bed.svg') !important;
+ }
+
+ .bath-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    background-repeat: no-repeat !important;
+    background-image: url('../../../../../assets/img/bathing.svg') !important;
+ }
+
+ .area-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    background-repeat: no-repeat !important;
+    background-image: url('../../../../../assets/img/area.svg') !important;
+ }
+
+ .card {
+     width: 17rem;
+     margin: 5px;
+ }
+
+ .property-list {
+     display: inline-block;
+ }
