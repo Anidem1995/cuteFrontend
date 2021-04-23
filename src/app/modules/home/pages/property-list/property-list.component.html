@@ -1,1 +1,3 @@
-<app-property-card></app-property-card>
+<div *ngFor="let property of properties" class="d-flex">
+    <app-property-card [property]="property"></app-property-card>
+</div>
